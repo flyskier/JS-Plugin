@@ -1,0 +1,39 @@
+	
+<i class="imgPicker updateimg" ></i>
+
+<!-- bootstrap -->
+ 
+ <!-- Modal -->
+    <div class="modal fade" id="modal" role="dialog" aria-labelledby="modalLabel" tabindex="-1">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel">更改头像<span id="imgtag" aria-hidden="true"></span></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"  aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body"> 
+           	<div >请注意使用合适的照片</div>    
+            <div class="row">
+            	<div class="col-sm-8 col-md-8 col-lg-8 ">
+                	<div class="cropper-wraper">
+            			<div class="img-container">
+               				<img id="img" src="" alt="" />
+            			</div>
+         			</div>
+         			<button type="button" class="btn btn-default" id="uploadimgbtn">点击上传图片</button><span id="imgname"></span>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                	<div style="text-align: center;">预览</div>
+                    <div class="img-preview preview-lg"></div>
+                    <div class="img-preview preview-md"></div>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            <button type="button" class="upload-btn btn btn-default" data-dismiss="modal">确定</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
